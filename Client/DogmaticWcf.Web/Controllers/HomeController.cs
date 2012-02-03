@@ -15,7 +15,7 @@ namespace DogmaticWcf.Web.Controllers
         {
             ViewBag.Message = "Welcome to my dogmatic wcf implemantation with castle windsor and ASP.NET MVC!";
 
-            ViewBag.MyProperty = _service.DoSomething(new MyDto() { MyProperty = "Testing" });
+            ViewBag.MyProperty = _service.DoSomething(new MyDto { MyProperty = "Testing" });
 
             return View();
         }
