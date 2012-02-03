@@ -101,10 +101,6 @@
       <Project>{4203D37C-56C5-4CC3-B61A-3BDC9AC43D5C}</Project>
       <Name>DogmaticWcf.Server.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Server\DogmaticWcf.Server.Services\DogmaticWcf.Server.Services.csproj">
-      <Project>{7B615C7B-AB41-4E8E-BF61-135E7D889836}</Project>
-      <Name>DogmaticWcf.Server.Services</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
